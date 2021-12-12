@@ -1,6 +1,6 @@
 # OOP EX2 -  Directed Weighted Graph
 
-this asssinment has written by [Taliya Shitreet](https://github.com/taliyashitreet "Profile") and  [Renana Rimon](https://github.com/renanarimon "Profile")
+this asssinment has written by [Taliya Shitreet](https://github.com/taliyashitreet "Profile") and  [Renana Rimon](https://github.com/renanarimon "Profile") <br />
 main classes:
 
 ## DW_graph implement DirectedWeightedGraph:

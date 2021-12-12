@@ -109,9 +109,10 @@ public class DW_graph implements DirectedWeightedGraph {
     public Iterator<NodeData> nodeIter() {
         try {
             return this.nodes.values().iterator();
-        } catch (Exception e) {
-            System.err.println("graph changed during iterate");
-            return null;
+        } catch (RuntimeException e) {
+            throw new RuntimeException();
+            //System.err.println("graph changed during iterate");
+            //return null;
         }
     }
 

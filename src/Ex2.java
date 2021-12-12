@@ -73,6 +73,11 @@ public class Ex2 {
     }
 
     public static void main(String[] args) {
-        runGUI("data/G2.json");
+        try{
+            runGUI(args[0]);
+        }catch (Exception e){
+            System.out.println("please enter a json file");
+        }
+
     }
 }

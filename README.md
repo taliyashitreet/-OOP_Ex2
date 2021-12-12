@@ -19,15 +19,10 @@ main classes:
 Example of graph string output:
 <sub>
   Vertices: 17 Edges: 36 MC: 53
-  </sup>
   0: (0->16) w:1.3118716362419698(0->1) w:1.232037506070033
-  <sup>
   1: (1->0) w:1.8635670623870366(1->2) w:1.8015954015822042
-  </sup>
   2: (2->1) w:1.5784991011275615(2->3) w:1.0631605142699874(2->6) w:1.7938753352369698
-  <sup>
   3: (3->2) w:1.440561778177153(3->4) w:1.2539385028794277
-  </sup>
   4: (4->3) w:1.8418222744214585(4->5) w:1.1422264879958028
   5: (5->4) w:1.5855912911662344(5->6) w:1.734311926030133
   6: (6->2) w:1.8474047229605628(6->5) w:1.4964304236123005(6->7) w:1.237565124536135
@@ -68,11 +63,13 @@ this class represents the GUI- extends JFrame and implements ActionListener
 ![image](https://user-images.githubusercontent.com/77111035/145706484-050f7033-3d8f-49d5-bea5-8c3a8a2d1e23.png)
 
 ## Complexity Analysis:
-| Method  |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Method  |Description   |Conplexity |
+|---|---|---|---|
+|ShortestPath()| using dijkstra algorithm and  find the shortest path from a starting node to a target node in a weighted graph | O (V+E(logV) | 
+|---|---|---|---|
+|TSP | find the shortest possible route that visits every city exactly once and returns to the starting point | O(k*(V+E(logV)) (k=mounts of cities) |  
+|---|---|---|---|
+| Center | the set of all vertices u where the greatest distance d(u,v) to other vertices v is minimal  |O(V*(V+E(logV)) |      
 
 
 

@@ -47,7 +47,8 @@ Vertices: 17 Edges: 36 MC: 53
   [Graph_center](https://en.wikipedia.org/wiki/Graph_center)
 - tsp():Computes a list of consecutive nodes which go over all the nodes in cities. 
   [Travelling_salesman_problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
-  ![image](https://user-images.githubusercontent.com/77111035/145706432-1787fa39-e946-4b56-815b-d6d788df3ad9.png)
+  An example of TSP in our GUI :
+![image](https://user-images.githubusercontent.com/77111035/145706446-64a457dd-563f-4363-9f80-f8b257c44d55.png)
 
 
 ## Canvas:
@@ -56,11 +57,18 @@ this class represents the GUI- extends JFrame and implements ActionListener
  - paint
  - paintComponents (responsible of painting the whole GUI and repaint after Event)
  - actionPerformed (responsible to handle the whole Events)
- ## 
-![image](https://user-images.githubusercontent.com/77111035/145705600-4a59c318-e121-45d1-824c-cc3fe1d1f0ab.png)
+ #### UML Diagram:
+![image](https://user-images.githubusercontent.com/77111035/145706484-050f7033-3d8f-49d5-bea5-8c3a8a2d1e23.png)
+
+## Complexity Analysis:
+| Method  |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 
 
-TSP
+
 
 

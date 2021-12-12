@@ -17,7 +17,7 @@ main classes:
 - parents - all edges in reverse point
 - 
 Example of graph string output:
-<div style="font-size: 0.5rem;">
+<div style="font-size: 0.1rem;">
   Vertices: 17 Edges: 36 MC: 53
   0: (0->16) w:1.3118716362419698(0->1) w:1.232037506070033
   1: (1->0) w:1.8635670623870366(1->2) w:1.8015954015822042

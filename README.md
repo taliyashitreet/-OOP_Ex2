@@ -11,7 +11,7 @@ main classes:
 - connect 2 node with edge
 - remove edge
 - Iterator (one of Edges and one of Nodes)
-- Data structure
+###### Data structure:
 - nodes
 - children - all edges in origin point
 - parents - all edges in reverse point

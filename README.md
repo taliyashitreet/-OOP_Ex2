@@ -63,12 +63,10 @@ this class represents the GUI- extends JFrame and implements ActionListener
 ![image](https://user-images.githubusercontent.com/77111035/145706484-050f7033-3d8f-49d5-bea5-8c3a8a2d1e23.png)
 
 ## Complexity Analysis:
-| Method  |Description   |Conplexity |
+| Method  |Description |Conplexity |
 |---|---|---|---|
 |ShortestPath()| using dijkstra algorithm and  find the shortest path from a starting node to a target node in a weighted graph | O (V+E(logV) | 
-|---|---|---|---|
 |TSP | find the shortest possible route that visits every city exactly once and returns to the starting point | O(k*(V+E(logV)) (k=mounts of cities) |  
-|---|---|---|---|
 | Center | the set of all vertices u where the greatest distance d(u,v) to other vertices v is minimal  |O(V*(V+E(logV)) |      
 
 

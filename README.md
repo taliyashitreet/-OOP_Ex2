@@ -1,6 +1,6 @@
 # OOP EX2 -  Directed Weighted Graph
 
-this asssinment has written by [Taliya Shitreet](https://github.com/taliyashitreet) [Renana Rimon](https://github.com/renanarimon)
+this asssinment has written by [Taliya Shitreet](https://github.com/taliyashitreet "Profile") and  [Renana Rimon](https://github.com/renanarimon "Profile")
 main classes:
 
 ## DW_graph implement DirectedWeightedGraph:
@@ -43,11 +43,20 @@ Vertices: 17 Edges: 36 MC: 53
 - isConnected(): check if graph is strongly connected.
 - shortestPathDist(): find shortest path distance between 2 nodes.
 - shortestPath(): find shortest path between 2 nodes.
-- center(): find center node in graph (https://en.wikipedia.org/wiki/Graph_center)
-- tsp():Computes a list of consecutive nodes which go over all the nodes in cities. (https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+- center(): find center node in graph
+  [Graph_center](https://en.wikipedia.org/wiki/Graph_center)
+- tsp():Computes a list of consecutive nodes which go over all the nodes in cities. 
+  [Travelling_salesman_problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+  ![image](https://user-images.githubusercontent.com/77111035/145706432-1787fa39-e946-4b56-815b-d6d788df3ad9.png)
+
 
 ## Canvas:
-this class extends JFrame and implinants
+this class represents the GUI- extends JFrame and implements ActionListener 
+ @Override :
+ - paint
+ - paintComponents (responsible of painting the whole GUI and repaint after Event)
+ - actionPerformed (responsible to handle the whole Events)
+ ## 
 ![image](https://user-images.githubusercontent.com/77111035/145705600-4a59c318-e121-45d1-824c-cc3fe1d1f0ab.png)
 
 

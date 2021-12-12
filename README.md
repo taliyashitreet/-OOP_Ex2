@@ -1,4 +1,6 @@
 # OOP EX2 -  Directed Weighted Graph
+
+this asssinment has written by [Taliya Shitreet](https://github.com/taliyashitreet) [Renana Rimon](https://github.com/renanarimon)
 main classes:
 
 ## DW_graph implement DirectedWeightedGraph:
@@ -48,8 +50,7 @@ Vertices: 17 Edges: 36 MC: 53
 this class extends JFrame and implinants
 ![image](https://user-images.githubusercontent.com/77111035/145705600-4a59c318-e121-45d1-824c-cc3fe1d1f0ab.png)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-https://github.com/renanarimon 
+
 
 TSP
 

@@ -60,15 +60,18 @@ this class represents the GUI- extends JFrame and implements ActionListener
  - paintComponents (responsible of painting the whole GUI and repaint after Event)
  - actionPerformed (responsible to handle the whole Events)
  #### UML Diagram:
-![image](https://user-images.githubusercontent.com/77111035/145706484-050f7033-3d8f-49d5-bea5-8c3a8a2d1e23.png)
+![image](https://user-images.githubusercontent.com/77111035/145707659-a911c416-245f-464a-913e-d24fc4152e75.png)
 
 ## Complexity Analysis:
 | Method       |Description                                                                                                     | Conplexity                           |
 |--------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------|
 |ShortestPath()| using dijkstra algorithm and  find the shortest path from a starting node to a target node in a weighted graph | O (V+E(logV)                         | 
-|TSP           | find the shortest possible route that visits every city exactly once and returns to the starting point         | O(k*(V+E(logV)) (k=mounts of cities) |  
-| Center       | the set of all vertices u where the greatest distance d(u,v) to other vertices v is minimal                    |O(V*(V+E(logV))                       |      
+|TSP()         | find the shortest possible route that visits every city exactly once and returns to the starting point         | O(k*(V+E(logV)) (k=mounts of cities) |  
+| Center()     | the set of all vertices u where the greatest distance d(u,v) to other vertices v is minimal                    |O(V*(V+E(logV))                       |      
 
+## RunTime for Large inputs:
+![image](https://user-images.githubusercontent.com/77111035/145707689-aecad121-016f-4d34-a76c-15384712352a.png)
+![image](https://user-images.githubusercontent.com/77111035/145707693-0506a337-182e-42c2-987c-424b5a515186.png)
 
 
 

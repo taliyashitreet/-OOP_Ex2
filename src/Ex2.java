@@ -73,13 +73,6 @@ public class Ex2 {
     }
 
     public static void main(String[] args) {
-//        DirectedWeightedGraph dw = getGrapg("data/10000Nodes.json");
-//        DirectedWeightedGraphAlgorithms algo = new DW_graph_algo();
-//        algo.init(dw);
-        DirectedWeightedGraph dw = getGrapg("data/G2.json");
-
         runGUI("data/G2.json");
-
-
     }
 }

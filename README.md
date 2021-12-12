@@ -15,8 +15,8 @@ main classes:
 - nodes
 - children - all edges in origin point
 - parents - all edges in reverse point
-- 
-Example of graph string output:
+ 
+- Example of graph string output:
 <sub>
   Vertices: 17 Edges: 36 MC: 53
   0: (0->16) w:1.3118716362419698(0->1) w:1.232037506070033

@@ -17,7 +17,7 @@ main classes:
 - parents - all edges in reverse point
 - 
 Example of graph string output:
-<div style="font-size: 0.1rem;">
+<div style="font-size: 0.8rem;">
   Vertices: 17 Edges: 36 MC: 53
   0: (0->16) w:1.3118716362419698(0->1) w:1.232037506070033
   1: (1->0) w:1.8635670623870366(1->2) w:1.8015954015822042
@@ -37,16 +37,7 @@ Example of graph string output:
   15: (15->16) w:1.8726071511162605(15->14) w:1.635946027210021
   16: (16->0) w:1.4418017651347552(16->15) w:1.5677693324851103
 </div>
-<div style="font-size: 0.5rem;">
-  <i class="fas fa-camera fa-xs"></i>
-  <i class="fas fa-camera fa-sm"></i>
-  <i class="fas fa-camera fa-lg"></i>
-  <i class="fas fa-camera fa-2x"></i>
-  <i class="fas fa-camera fa-3x"></i>
-  <i class="fas fa-camera fa-5x"></i>
-  <i class="fas fa-camera fa-7x"></i>
-  <i class="fas fa-camera fa-10x"></i>
-</div>
+
 
 ## DW_graph_algo implement DirectedWeightedGraphAlgorithms:
 #### The class implements algorithms for use on the graph:

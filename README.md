@@ -71,7 +71,7 @@ this class represents the GUI- extends JFrame and implements ActionListener
 
 ## RunTime for Large inputs:
 ![image](https://user-images.githubusercontent.com/77111035/145707734-1dab7974-723d-4808-a9b5-8ebd2ee7e3cd.png)
-![image](https://user-images.githubusercontent.com/77111035/145707745-acc5f409-2760-417e-b372-d5104a472069.png)
+![image](https://user-images.githubusercontent.com/77111035/145707772-00ae8d05-d873-4379-969f-32614104f0ca.png)
 
 
 

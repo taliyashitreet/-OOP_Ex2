@@ -40,6 +40,7 @@ main classes:
 
 
 ## DW_graph_algo implement DirectedWeightedGraphAlgorithms:
+
 #### The class implements algorithms for use on the graph:
 
 - isConnected(): check if graph is strongly connected.

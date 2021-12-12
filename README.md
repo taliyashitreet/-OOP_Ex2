@@ -70,8 +70,8 @@ this class represents the GUI- extends JFrame and implements ActionListener
 | Center()     | the set of all vertices u where the greatest distance d(u,v) to other vertices v is minimal                    |O(V*(V+E(logV))                       |      
 
 ## RunTime for Large inputs:
-![image](https://user-images.githubusercontent.com/77111035/145707689-aecad121-016f-4d34-a76c-15384712352a.png)
-![image](https://user-images.githubusercontent.com/77111035/145707693-0506a337-182e-42c2-987c-424b5a515186.png)
+![image](https://user-images.githubusercontent.com/77111035/145707734-1dab7974-723d-4808-a9b5-8ebd2ee7e3cd.png)
+![image](https://user-images.githubusercontent.com/77111035/145707745-acc5f409-2760-417e-b372-d5104a472069.png)
 
 
 

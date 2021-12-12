@@ -16,7 +16,7 @@ main classes:
 - children - all edges in origin point
 - parents - all edges in reverse point
  
-Example of graph string output:
+Example of graph string output:<br />
 <sub>
   Vertices: 17 Edges: 36 MC: 53
   0: (0->16) w:1.3118716362419698(0->1) w:1.232037506070033
@@ -55,7 +55,7 @@ Example of graph string output:
 
 
 ## Canvas:
-this class represents the GUI- extends JFrame and implements ActionListener 
+this class represents the GUI- extends JFrame and implements ActionListener <br />
  @Override :
  - paint
  - paintComponents (responsible of painting the whole GUI and repaint after Event)
